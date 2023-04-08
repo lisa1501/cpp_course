@@ -21,14 +21,27 @@ int main(){
     // std::cout << gpa << '\n';
     // std::cout << temperature << '\n';
 
-    // Single character
+    // Single character , single quotes
     char grade ='A';
     char initial ='BC'; //warning: char only can store single character, output last character
     char dollarSign = '$'; 
 
-    std::cout << grade << '\n';
-    std::cout << initial << '\n';
-    std::cout << dollarSign << '\n';
+    // std::cout << grade << '\n';
+    // std::cout << initial << '\n';
+    // std::cout << dollarSign << '\n';
+
+    // boolean (true or false)
+    bool student = false;
+    bool power = true;
+    bool forSale = true;
+
+    //  string (objects that represents a sequence of text), double quotes
+    std::string name = "Halisa";
+    std::string food = "Pizza";
+    std::string day = "Sunday";
+
+    std::cout <<"Hello " << name<<std::endl;
+    std::cout <<"I like to eat " << food <<std::endl;
 
     return 0;
 }
