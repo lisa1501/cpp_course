@@ -17,9 +17,18 @@ int main(){
     double gpa = 2.5;
     double temperature = 25.1;
 
-    std::cout << price << '\n';
-    std::cout << gpa << '\n';
-    std::cout << temperature << '\n';
+    // std::cout << price << '\n';
+    // std::cout << gpa << '\n';
+    // std::cout << temperature << '\n';
+
+    // Single character
+    char grade ='A';
+    char initial ='BC'; //warning: char only can store single character, output last character
+    char dollarSign = '$'; 
+
+    std::cout << grade << '\n';
+    std::cout << initial << '\n';
+    std::cout << dollarSign << '\n';
 
     return 0;
 }
