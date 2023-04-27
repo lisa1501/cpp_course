@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/halisasaipulla/Developer/Course/C++_course/projects/iterate_over_an_array",
+      "program": "/Users/halisasaipulla/Developer/Course/C++_course/projects/iterate_over_an_array/build/Debug/outDebug"
+    }
+  ]
+}
