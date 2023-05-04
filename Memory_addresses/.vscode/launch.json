@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/halisasaipulla/Developer/Course/C++_course/projects/Memory_addresses",
+      "program": "/Users/halisasaipulla/Developer/Course/C++_course/projects/Memory_addresses/build/Debug/outDebug"
+    }
+  ]
+}
