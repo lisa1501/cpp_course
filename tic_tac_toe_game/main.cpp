@@ -24,6 +24,10 @@ int main(){
         if(checkWinner(spaces, player, computer)){
             running = false;
             break;
+        }else if(checkTie(spaces)){
+            running = false;
+            break;
+
         }
 
         computerMove(spaces,computer);
@@ -31,9 +35,14 @@ int main(){
         if(checkWinner(spaces, player, computer)){
             running = false;
             break;
+        }else if(checkTie(spaces)){
+            running = false;
+            break;
+
         }
 
     }
+    std::cout << "Thanks for playing!\n";
 
     return 0;
 }
@@ -101,5 +110,13 @@ bool checkWinner(char *spaces, char player, char computer){
     return true;
 };
 bool checkTie(char *spaces){
-    return 0;
+
+    for(int i=0; i< 9; i++){
+        if(spaces[i]== ' '){
+            return false;
+        }
+    }
+
+    std::cout << "IT'S A TIE\n";
+    return true;
 };
